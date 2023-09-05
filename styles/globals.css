@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+  background: #1c8ef9;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  background: white;
+  min-width: 600px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 20px #00000042;
+}
+
+.user-card {
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-card img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  border: 2px solid #1c8ef9;
+  padding: 4px 8px;
+  outline: none;
+  border-radius: 4px 0 0 4px;
+  font-size: medium;
+}
+
+.search label {
+  position: absolute;
+  z-index: -1;
+}
+
+button {
+  background-color: #1c8ef9;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 0 4px 4px 0;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+}
